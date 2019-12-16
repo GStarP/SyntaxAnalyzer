@@ -10,5 +10,8 @@ public class SyntaxAnalyzer {
     public static void main(String[] args) {
         List<Token> tokens = LexAnalyzer.getTokenList(inFilePath);
         // TODO
+        for (Token token : tokens) {
+            System.out.println(token.toString());
+        }
     }
 }
