@@ -1,3 +1,5 @@
 .idea/
 SyntaxAnalyzer.iml
 out
+*.png
+*.pdf

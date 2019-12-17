@@ -51,8 +51,8 @@ public class LexAnalyzer {
                     code = 4;
                 } else if (c == '>') {
                     code = 5;
-                } else if (c == '|') {
-                    if (tmpP + 1 < content.length() && content.charAt(tmpP + 1) == '|') {
+                } else if (c == '&') {
+                    if (tmpP + 1 < content.length() && content.charAt(tmpP + 1) == '&') {
                         code = 6;
                         s += content.charAt(tmpP + 1);
                         col++;

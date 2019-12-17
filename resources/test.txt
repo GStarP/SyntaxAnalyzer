@@ -1,5 +1,6 @@
-if (zzn0309 > lzt || lxc1004 > lmy)
-    daj + yamy;
+if (zzn0309 > lzt && lxc1004 > lmy)
+    daj + yamy
 else
     if (mmq > wxy)
-        fj + xmj;
+        fj + xmj
+

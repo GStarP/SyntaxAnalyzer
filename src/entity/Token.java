@@ -10,6 +10,14 @@ public class Token {
         this.content = c;
     }
 
+    public int getType() {
+        return type;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
     public String toString() {
         return "【" + this.type + ", " + this.content + "】";
     }
